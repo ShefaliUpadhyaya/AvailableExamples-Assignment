@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">21</td><td class="numi">21</td><td class="numi">0</td><td class="numi">0</td><td class="numi">13.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="21">availableexamplestest.AvailableExamplesTest</td><td><a href="#m1"><b>basic_Auth_Button_Should_Open_Authentication_Prompt</b>  </a></td><td class="numi">1</td><td>1531291544276</td><td class="numi">10</td></tr><tr class="passedodd"><td><a href="#m2"><b>broken_Images_Button_Should_Open_Broken_Images_Page</b>  </a></td><td class="numi">1</td><td>1531291544989</td><td class="numi">364</td></tr><tr class="passedodd"><td><a href="#m3"><b>clear_And_Enter_Text_In_Editor_Should_Is_Able_To_Edit</b>  </a></td><td class="numi">1</td><td>1531291548319</td><td class="numi">509</td></tr><tr class="passedodd"><td><a href="#m4"><b>due_Column_Click__Should_Arrange_Due_In_Descending_Order</b>  </a></td><td class="numi">1</td><td>1531291546091</td><td class="numi">199</td></tr><tr class="passedodd"><td><a href="#m5"><b>editor_Button_Should_Open_Editor_Page</b>  </a></td><td class="numi">1</td><td>1531291547644</td><td class="numi">673</td></tr><tr class="passedodd"><td><a href="#m6"><b>enter_Credentials_In_Authentication_Prompt_Should_Open_Basic_Authentication_Page</b>  </a></td><td class="numi">1</td><td>1531291544288</td><td class="numi">698</td></tr><tr class="passedodd"><td><a href="#m7"><b>exit_Intent_Button_Should_Open_Exit_Intent_Page</b>  </a></td><td class="numi">1</td><td>1531291545535</td><td class="numi">171</td></tr><tr class="passedodd"><td><a href="#m8"><b>form_Authentication_Button_Should_Open_Form_Authentication_Page</b>  </a></td><td class="numi">1</td><td>1531291546292</td><td class="numi">207</td></tr><tr class="passedodd"><td><a href="#m9"><b>form_Authentication_With_Invalid_Credentials_Should_Display_Error</b>  </a></td><td class="numi">1</td><td>1531291546502</td><td class="numi">195</td></tr><tr class="passedodd"><td><a href="#m10"><b>form_Authentication_With_Valid_Credentials_Should_Log_Into_Secure_Area</b>  </a></td><td class="numi">1</td><td>1531291546698</td><td class="numi">200</td></tr><tr class="passedodd"><td><a href="#m11"><b>hovering_Out_Of_First_Image_Makes_Username_And_Profile_Disappear</b>  </a></td><td class="numi">1</td><td>1531291547501</td><td class="numi">141</td></tr><tr class="passedodd"><td><a href="#m12"><b>hovers_Button_Should_Open_Hovers_Page</b>  </a></td><td class="numi">1</td><td>1531291547197</td><td class="numi">159</td></tr><tr class="passedodd"><td><a href="#m13"><b>logout_Button_Should_Log_Out_Of_Secure_Area</b>  </a></td><td class="numi">1</td><td>1531291546899</td><td class="numi">296</td></tr><tr class="passedodd"><td><a href="#m14"><b>modal_Should_Disappear_On_Defocussing</b>  </a></td><td class="numi">1</td><td>1531291545727</td><td class="numi">151</td></tr><tr class="passedodd"><td><a href="#m15"><b>mouse_Outside_Page_Should_Display_Modal</b>  </a></td><td class="numi">1</td><td>1531291545707</td><td class="numi">19</td></tr><tr class="passedodd"><td><a href="#m16"><b>report_Source_URL_Of_Images_Not_Loaded_Properly</b>  </a></td><td class="numi">1</td><td>1531291545354</td><td class="numi">178</td></tr><tr class="passedodd"><td><a href="#m17"><b>sortable_Data_Tables_Button_Should_Open_Data_Tables_Page</b>  </a></td><td class="numi">1</td><td>1531291545880</td><td class="numi">210</td></tr><tr class="passedodd"><td><a href="#m18"><b>status_Code_Should_Be_404_For_The_Page</b>  </a></td><td class="numi">1</td><td>1531291549124</td><td class="numi">1516</td></tr><tr class="passedodd"><td><a href="#m19"><b>status_Codes_404_Button_Should_Display_404_Message</b>  </a></td><td class="numi">1</td><td>1531291548981</td><td class="numi">142</td></tr><tr class="passedodd"><td><a href="#m20"><b>status_Codes_Button_Should_Open_Status_Codes_Page</b>  </a></td><td class="numi">1</td><td>1531291548830</td><td class="numi">149</td></tr><tr class="passedodd"><td><a href="#m21"><b>verify_Username_And_Profile_On_Hovering_Over_First_Image</b>  </a></td><td class="numi">1</td><td>1531291547359</td><td class="numi">141</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">availableexamplestest.AvailableExamplesTest:enter_Credentials_In_Authentication_Prompt_Should_Open_Basic_Authentication_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">availableexamplestest.AvailableExamplesTest:exit_Intent_Button_Should_Open_Exit_Intent_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">availableexamplestest.AvailableExamplesTest:due_Column_Click__Should_Arrange_Due_In_Descending_Order</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">availableexamplestest.AvailableExamplesTest:form_Authentication_With_Valid_Credentials_Should_Log_Into_Secure_Area</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">availableexamplestest.AvailableExamplesTest:status_Codes_404_Button_Should_Display_404_Message</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">availableexamplestest.AvailableExamplesTest:form_Authentication_Button_Should_Open_Form_Authentication_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">availableexamplestest.AvailableExamplesTest:form_Authentication_With_Invalid_Credentials_Should_Display_Error</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">availableexamplestest.AvailableExamplesTest:editor_Button_Should_Open_Editor_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">availableexamplestest.AvailableExamplesTest:mouse_Outside_Page_Should_Display_Modal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">availableexamplestest.AvailableExamplesTest:verify_Username_And_Profile_On_Hovering_Over_First_Image</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">availableexamplestest.AvailableExamplesTest:hovering_Out_Of_First_Image_Makes_Username_And_Profile_Disappear</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">availableexamplestest.AvailableExamplesTest:clear_And_Enter_Text_In_Editor_Should_Is_Able_To_Edit</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">availableexamplestest.AvailableExamplesTest:report_Source_URL_Of_Images_Not_Loaded_Properly</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">availableexamplestest.AvailableExamplesTest:logout_Button_Should_Log_Out_Of_Secure_Area</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">availableexamplestest.AvailableExamplesTest:sortable_Data_Tables_Button_Should_Open_Data_Tables_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">availableexamplestest.AvailableExamplesTest:modal_Should_Disappear_On_Defocussing</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">availableexamplestest.AvailableExamplesTest:basic_Auth_Button_Should_Open_Authentication_Prompt</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">availableexamplestest.AvailableExamplesTest:status_Code_Should_Be_404_For_The_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">availableexamplestest.AvailableExamplesTest:broken_Images_Button_Should_Open_Broken_Images_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">availableexamplestest.AvailableExamplesTest:status_Codes_Button_Should_Open_Status_Codes_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">availableexamplestest.AvailableExamplesTest:hovers_Button_Should_Open_Hovers_Page</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

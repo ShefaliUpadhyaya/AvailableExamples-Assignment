@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="availableexamplestest.AvailableExamplesTest">
+        <methods>
+          <include name="enter_Credentials_In_Authentication_Prompt_Should_Open_Basic_Authentication_Page"/>
+          <include name="form_Authentication_Button_Should_Open_Form_Authentication_Page"/>
+          <include name="logout_Button_Should_Log_Out_Of_Secure_Area"/>
+          <include name="mouse_Outside_Page_Should_Display_Modal"/>
+          <include name="modal_Should_Disappear_On_Defocussing"/>
+          <include name="form_Authentication_With_Valid_Credentials_Should_Log_Into_Secure_Area"/>
+          <include name="clear_And_Enter_Text_In_Editor_Should_Is_Able_To_Edit"/>
+          <include name="launchBrowser"/>
+          <include name="hovers_Button_Should_Open_Hovers_Page"/>
+          <include name="form_Authentication_With_Invalid_Credentials_Should_Display_Error"/>
+          <include name="editor_Button_Should_Open_Editor_Page"/>
+          <include name="exit_Intent_Button_Should_Open_Exit_Intent_Page"/>
+          <include name="verify_Username_And_Profile_On_Hovering_Over_First_Image"/>
+          <include name="report_Source_URL_Of_Images_Not_Loaded_Properly"/>
+          <include name="status_Codes_Button_Should_Open_Status_Codes_Page"/>
+          <include name="hovering_Out_Of_First_Image_Makes_Username_And_Profile_Disappear"/>
+          <include name="due_Column_Click__Should_Arrange_Due_In_Descending_Order"/>
+          <include name="sortable_Data_Tables_Button_Should_Open_Data_Tables_Page"/>
+          <include name="status_Code_Should_Be_404_For_The_Page"/>
+          <include name="broken_Images_Button_Should_Open_Broken_Images_Page"/>
+          <include name="status_Codes_404_Button_Should_Display_404_Message"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- availableexamplestest.AvailableExamplesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
